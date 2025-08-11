@@ -29,7 +29,7 @@ class App extends React.Component {
         <div className="card">
           <h1 className="heading">{advice}</h1>
 
-          {/* Make new loading animation while it make new request and also fix css */}
+          {/* TNA  new loading animation while it make new request and also fix css */}
           <button className="button" onClick={this.fetchAdvice}>
             <span>Give Me Advice</span>
           </button>
