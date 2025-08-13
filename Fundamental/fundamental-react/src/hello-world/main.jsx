@@ -1,9 +1,14 @@
 import { createRoot } from "react-dom/client";
 import HelloWorld from "./HelloWorld";
+import Container from "./Container";
 import { StrictMode } from "react";
+import TodoList from "../todo-list/Todolist";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HelloWorld />
+    <Container>
+      <HelloWorld />
+      <TodoList />
+    </Container>
   </StrictMode>
 );
