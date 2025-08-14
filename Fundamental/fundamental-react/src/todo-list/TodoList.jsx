@@ -1,4 +1,4 @@
-import Todo from "./Todo";
+import Todo from "./todo.jsx";
 
 export default function TodoList() {
   const data = [
