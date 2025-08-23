@@ -7,7 +7,9 @@ export default defineConfig({
   build:{
     input:{
       index: "index.html",
-      hello_world : "hello-world.html"
+      hello_world : "hello-world.html",
+      contact : "contact.html",
+      task : "task.html"
     }
   }
 })

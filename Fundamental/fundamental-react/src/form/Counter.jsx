@@ -6,8 +6,13 @@ export default function Counter() {
     <div>
       <button
         onClick={() => {
-          setCounter(counter + 1);
-          console.log(`Counter: ${counter + 1}`);
+          // State update
+          setCounter((c) => c + 1);
+          setCounter((c) => c + 1);
+          setCounter((c) => c + 1);
+
+          // Normal
+          // console.log(`Counter: ${counter + 1}`);
         }}
       >
         Increment
